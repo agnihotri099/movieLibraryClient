@@ -49,7 +49,7 @@ const Home = () => {
       fetchLists();
     }
     
-  }, []);
+  }, [isLoggedIn]);
 
   useEffect(() => {
     const fetchPublicLists = async () => {
