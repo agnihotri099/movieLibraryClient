@@ -23,7 +23,7 @@ Follow these steps to get your development environment running:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/agnihotri099/Levitation-client
+git clone https://github.com/agnihotri099/movieLibraryClient
 cd client
 ```
 
@@ -40,7 +40,7 @@ npm start
 
 4. Deployment link:
 ```bash
-https://levitation-client.netlify.app/
+https://main--movielibrarylive.netlify.app/
 ```
 Your app should now be running on http://localhost:3000.
 
