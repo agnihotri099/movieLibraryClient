@@ -25,7 +25,7 @@ const MovieList = () => {
   }, []);
 
   const onChange = (e) => {
-    const { name, value, type, checked } = e.target;
+    const { value, type, checked } = e.target;
     if (type === 'checkbox') {
       setIsPublic(checked);
     } else {

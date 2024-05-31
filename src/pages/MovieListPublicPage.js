@@ -20,6 +20,7 @@ const MovieListPublicPage = () => {
         );
         setPublicLists(res.data);
       } catch (error) {
+        setError(error);
         console.error(error.response.data);
       }
     };

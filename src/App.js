@@ -7,7 +7,6 @@ import Home from './pages/Home';
 import MovieList from './pages/MovieList';
 import MovieListDetails from './pages/MovieListDetails';
 import Dashboard from './pages/Dashboard';
-import MovieListPublic from './components/MovieListPublic';
 import MovieListPublicPage from './pages/MovieListPublicPage';
 
 const App = () => {
